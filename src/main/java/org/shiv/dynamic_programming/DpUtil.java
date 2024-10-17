@@ -1,10 +1,10 @@
 package org.shiv.dynamic_programming;
 
+import java.util.Arrays;
+
 public class DpUtil {
     public static void initArray(int[] inputArray){
-        for(int i=0;i<inputArray.length;i++){
-            inputArray[i] = -1;
-        }
+        Arrays.fill(inputArray , -1);
     }
     public static void printArray(int[] arr){
         int n = arr.length;
